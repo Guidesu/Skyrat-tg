@@ -16,6 +16,7 @@
 	var/modifies_speech = FALSE
 	var/static/list/languages_possible_base = typecacheof(list(
 		/datum/language/common,
+		/datum/language/skrell, //SKYRAT EDIT - skrell update! - it need to be put here!
 		/datum/language/uncommon,
 		/datum/language/draconic,
 		/datum/language/codespeak,
