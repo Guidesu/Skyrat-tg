@@ -27,7 +27,6 @@
 	armor = 5
 	brutemod = 0.5
 	coldmod = 0.5
-	acidmod = 0.2
 	heatmod = 3
 	burnmod = 3
 	siemens_coeff = 3
