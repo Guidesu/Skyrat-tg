@@ -12,6 +12,7 @@
 #define TRAIT_DETECTIVE "detective_ability" //Given to the detective, if they have this, they can see syndicate special descriptions.
 #define TRAIT_FREE_GHOST "free_ghost" // Can ghost and return freely with this trait
 #define GLUED_ITEM_TRAIT "glued-item" // This is for glued items, undroppable. Syndie glue applies this.
+#define TRAIT_ACIDBLOOD "acid_blood"
 
 // Trait sources
 #define GHOSTROLE_TRAIT "ghostrole" // SKYRAT EDIT ADDITION -- Ghost Cafe Traits
