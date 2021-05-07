@@ -52,7 +52,7 @@
 		var/wait_how_many_bees_did_that_guy_pull_out_of_his_hat = rand(4, 8)
 		for(var/b in 1 to wait_how_many_bees_did_that_guy_pull_out_of_his_hat)
 			var/mob/living/simple_animal/hostile/poison/bees/barry = new(get_turf(magician))
-			barry.target = magician
+			barry.GiveTarget(magician)
 			if(prob(20))
 				barry.say(pick("BUZZ BUZZ", "PULLING A RABBIT OUT OF A HAT IS A TIRED TROPE", "I DIDN'T ASK TO BEE HERE"), forced = "bee hat")
 	else
@@ -289,13 +289,17 @@
 
 	dog_fashion = /datum/dog_fashion/head/sombrero
 
+	greyscale_config = /datum/greyscale_config/sombrero
+	greyscale_config_worn = /datum/greyscale_config/sombrero/worn
+	greyscale_config_inhand_left = /datum/greyscale_config/sombrero/lefthand
+	greyscale_config_inhand_right = /datum/greyscale_config/sombrero/righthand
+
 /obj/item/clothing/head/sombrero/green
 	name = "green sombrero"
-	icon_state = "greensombrero"
-	inhand_icon_state = "greensombrero"
 	desc = "As elegant as a dancing cactus."
 	flags_inv = HIDEHAIR|HIDEFACE|HIDEEARS
 	dog_fashion = null
+	greyscale_colors = "#13d968#ffffff"
 
 /obj/item/clothing/head/sombrero/shamebrero
 	name = "shamebrero"
@@ -303,6 +307,7 @@
 	inhand_icon_state = "shamebrero"
 	desc = "Once it's on, it never comes off."
 	dog_fashion = null
+	greyscale_colors = "#d565d3#f8db18"
 
 /obj/item/clothing/head/sombrero/shamebrero/Initialize()
 	. = ..()
@@ -493,13 +498,10 @@
 	name = "shrine maiden's wig"
 	desc = "Purify in style!"
 	flags_inv = HIDEHAIR //bald
-	worn_icon = 'icons/mob/large-worn-icons/64x64/head.dmi'
 	icon_state = "shrine_wig"
 	inhand_icon_state = "shrine_wig"
-	worn_x_dimension = 64
-	worn_y_dimension = 64
-	clothing_flags = LARGE_WORN_ICON
 	dynamic_hair_suffix = ""
+	worn_y_offset = 1
 
 /obj/item/clothing/head/intern
 	name = "\improper CentCom Head Intern beancap"

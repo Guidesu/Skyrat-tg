@@ -176,3 +176,84 @@
 	. = ..()
 	AddElement(/datum/element/polychromic, list("5D5", "EEA", "333"))
 
+
+/obj/item/clothing/suit/toggle/deckard
+	name = "runner coat"
+	desc = "They say you overused reference. Tell them you're eating in this lovely coat, a long flowing brown one."
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "deckard"
+	mutant_variants = NONE
+	inhand_icon_state = "det_suit"
+	blood_overlay_type = "coat"
+	togglename = "buttons"
+	body_parts_covered = CHEST|GROIN|LEGS|ARMS
+	armor = list(MELEE = 25, BULLET = 10, LASER = 25, ENERGY = 35, BOMB = 0, BIO = 0, RAD = 0, FIRE = 0, ACID = 45)
+	cold_protection = CHEST|GROIN|LEGS|ARMS
+	heat_protection = CHEST|GROIN|LEGS|ARMS
+
+/obj/item/clothing/suit/toggle/ranger
+	name = "cowboy ponch"
+	desc = "Aim for the Heart, Ramon."
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "ranger_cloak"
+	mutant_variants = NONE
+	heat_protection = CHEST
+	blood_overlay_type = "coat"
+	togglename = "cloak"
+
+
+/obj/item/clothing/suit/jacket/leather/polychromic
+	desc = "Now with more color!"
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "polyleatherjacket"
+
+
+/obj/item/clothing/suit/toggle/brit/sec
+	name = "high vis armored vest"
+	desc = "Oi bruv' you got a loicence for that?"
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "hazardbg"
+	mutant_variants = NONE
+	blood_overlay_type = "coat"
+	togglename = "zipper"
+	armor = list(MELEE = 10, BULLET = 5, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 0, ACID = 0)
+
+
+/obj/item/clothing/suit/toggle/lawyer/black/better
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "suitjacket_black"
+	mutant_variants = NONE
+
+
+/obj/item/clothing/suit/duster/colorable
+	name = "colorable duster"
+	desc = "This station aint big enough for the both of us."
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "duster"
+	mutant_variants = NONE
+
+/obj/item/clothing/suit/duster/colorable/ComponentInitialize()
+	. = ..()
+	AddElement(/datum/element/polychromic, list("5D5"))
+
+/obj/item/clothing/suit/toggle/peacoat
+	name = "colorable peacoat"
+	desc = "The way you guys are blending in with the local colour. I mean, Flag Girl was bad enough, but U-Boat Captain?"
+	icon = 'modular_skyrat/modules/customization/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/modules/customization/icons/mob/clothing/suit.dmi'
+	icon_state = "peacoat"
+	mutant_variants = NONE
+
+/obj/item/clothing/suit/toggle/peacoat/ComponentInitialize()
+	. = ..()
+	AddElement(/datum/element/polychromic, list("5D5"))
+
+
+
+

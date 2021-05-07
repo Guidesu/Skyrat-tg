@@ -34,6 +34,16 @@
 	path = /obj/item/clothing/neck/cloak/grunnyyy
 	ckeywhitelist = list("grunnyyy")
 
+/datum/loadout_item/gloves/donator/hypnoring
+	name = "Hypnodemon's Ring"
+	path = /obj/item/clothing/gloves/ring/coffeepot
+	ckeywhitelist = list("coffeepot")
+
+/datum/loadout_item/head/donator/avipilot
+	name = "Smuggler's Flying Cap"
+	path = /obj/item/clothing/head/avipilot
+	ckeywhitelist = list("slippyjoe")
+
 /datum/loadout_item/shoes/donator/britches_shoes
 	name = "Britches' shoes"
 	path = /obj/item/clothing/shoes/clown_shoes/britches
@@ -48,6 +58,16 @@
 	name = "Britches' mask"
 	path = /obj/item/clothing/mask/gas/britches
 	ckeywhitelist = list("bloodrite")
+
+/datum/loadout_item/mask/donator/luchador_mask
+	name = "Mask of El Red Templar"
+	path = /obj/item/clothing/mask/luchador/enzo
+	ckeywhitelist = list("enzoman")
+
+/datum/loadout_item/mask/donator/nightlight_mask
+	name = "FAR-13 SRU"
+	path = /obj/item/clothing/mask/gas/nightlight
+	ckeywhitelist = list("farsightednightlight")
 
 /datum/loadout_item/head/donator/drake_skull
 	name = "Skull of an ashdrake"
@@ -144,8 +164,33 @@
 	path = /obj/item/clothing/under/misc/mechanic
 	ckeywhitelist = list("cypressb")
 
+/datum/loadout_item/uniform/donator/mikubikini
+	name = "starlight singer bikini"
+	path = /obj/item/clothing/under/mikubikini
+	ckeywhitelist = list("grandvegeta")
+
+/datum/loadout_item/suit/donator/mikujacket
+	name = "starlight singer jacket"
+	path = /obj/item/clothing/suit/mikujacket
+	ckeywhitelist = list("grandvegeta")
+
+/datum/loadout_item/head/donator/mikuhair
+	name = "starlight singer hair"
+	path = /obj/item/clothing/head/mikuhair
+	ckeywhitelist = list("grandvegeta")
+
+/datum/loadout_item/gloves/donator/mikugloves
+	name = "starlight singer gloves"
+	path = /obj/item/clothing/gloves/mikugloves
+	ckeywhitelist = list("grandvegeta")
+
+/datum/loadout_item/shoes/donator/mikulegging
+	name = "starlight singer bikini"
+	path = /obj/item/clothing/shoes/sneakers/mikuleggings
+	ckeywhitelist = list("grandvegeta")
+
 //FOR DEV INTERNS!
 /datum/loadout_item/backpack/donator/intern_hat
 	name = "Intern Hat"
 	path = /obj/item/clothing/head/intern/developer
-	ckeywhitelist = list("gandalf2k15", "yawet330", "junglerat", "theooz", "tf4", "cheshify", "swiftfeather", "spcr", "tygertac")
+	ckeywhitelist = list("gandalf2k15", "yawet330", "junglerat", "theooz", "tf4", "cheshify", "swiftfeather", "spcr", "tygertac", "useroth", "slippyjoe")

@@ -70,7 +70,8 @@
 		/obj/item/inducer,
 		/obj/item/plunger,
 		/obj/item/airlock_painter,
-		/obj/item/pipe_painter
+		/obj/item/pipe_painter,
+		/obj/item/weldingtool/experimental
 		))
 
 /obj/item/storage/belt/utility/chief
@@ -83,7 +84,7 @@
 /obj/item/storage/belt/utility/chief/full/PopulateContents()
 	new /obj/item/screwdriver/power(src)
 	new /obj/item/crowbar/power(src)
-	new /obj/item/weldingtool/experimental(src)//This can be changed if this is too much
+	new /obj/item/weldingtool/experimental(src)
 	new /obj/item/multitool(src)
 	new /obj/item/stack/cable_coil(src)
 	new /obj/item/extinguisher/mini(src)
@@ -544,7 +545,7 @@
 /obj/item/storage/belt/wands/full/PopulateContents()
 	new /obj/item/gun/magic/wand/death(src)
 	new /obj/item/gun/magic/wand/resurrection(src)
-	new /obj/item/gun/magic/wand/polymorph(src)
+	new /obj/item/gun/magic/wand/fireball(src) //SKYRAT EDIT - Trades polymorph for second fireball
 	new /obj/item/gun/magic/wand/teleport(src)
 	new /obj/item/gun/magic/wand/door(src)
 	new /obj/item/gun/magic/wand/fireball(src)

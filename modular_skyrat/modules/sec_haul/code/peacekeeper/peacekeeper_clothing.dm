@@ -104,7 +104,7 @@
 	icon_state = "peacekeeper_black"
 	worn_icon_state = "peacekeeper_black"
 
-/obj/item/clothing/suit/armor/hos/trenchcoat/peacekeeper
+/obj/item/clothing/suit/toggle/armor/hos/trenchcoat/peacekeeper
 	name = "armored peacekeeper trenchcoat"
 	desc = "A trenchcoat enhanced with a special lightweight kevlar. The epitome of tactical plainclothes."
 	icon = 'modular_skyrat/modules/sec_haul/icons/peacekeeper/peacekeeper_items.dmi'
@@ -291,6 +291,10 @@
 	icon_state = "peacekeeper_boots"
 	inhand_icon_state = "jackboots"
 	worn_icon_state = "peacekeeper"
+
+/obj/item/clothing/shoes/combat/peacekeeper/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/squeak, list('modular_skyrat/master_files/sound/effects/suitstep1.ogg'=1,'modular_skyrat/master_files/sound/effects/suitstep2.ogg'=1), 40, falloff_exponent = SOUND_FALLOFF_EXPONENT)
 
 /obj/item/clothing/suit/armor/riot/peacekeeper
 	name = "peacekeeper riotsuit"
