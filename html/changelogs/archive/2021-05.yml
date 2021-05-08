@@ -276,3 +276,42 @@
   - bugfix: the sec medic  and HoP now get four mags in their gunsets, same as everyone
       else
   - bugfix: a single space
+2021-05-08:
+  Celotajs:
+  - bugfix: Fixed PDA overlays for GAGS PDAs
+  DuffCreeper:
+  - rscadd: Re-added the stock market to cargo. You can find the board in the QMs
+      locker round start or print it. Remember, sell high buy low
+  FlamingLily:
+  - rscadd: Alternate Job Titles for every job!
+  - rscadd: Framework for adding more titles in the future.
+  - rscadd: GENPOP lockers now dispense security level prisoner outfits dependant
+      on time.
+  - code_imp: general cleanup of alternate prisoner outfit code
+  Foxtrot (Funce):
+  - bugfix: Oops, Civil Disputes Officers now officially have SOOC
+  KasparoVy:
+  - rscadd: Adds a new 8-point negative quirk preventing you from using most firearms,
+      modular computers/tablets and laser pointers like an Ashwalker or Golem. KAs
+      can be adapted w/ a modkit. You cannot be command, security, engineering, atmos,
+      doctor, virologist, chemist, roboticist or scientist with this trait.
+  ORCACommander:
+  - bugfix: Cleaned up the SQL Changelog AGAIN
+  Seris02:
+  - bugfix: various OOC messages going into unsorted now get sorted
+  - bugfix: various other miscellaneous unsorted messages now get sorted
+  SkyratBot:
+  - bugfix: Messages related to becoming and ceasing to be a heretic monster are now
+      more noticeable.
+  - admin: moves sdql spell from debug tab to vv dropdown
+  - bugfix: Felinids are disgusted by raw and gross foods again.
+  - bugfix: Made the PDA painter be able to paint PDAs into standard PDAs.
+  - bugfix: Made the PDA painter able to paint PDAs again after 58844 did not update
+      the painter.
+  ZephyrTFA:
+  - rscadd: Bluespace RPD
+  thestubborn:
+  - rscadd: Two new colourable coats
+  - rscadd: Like five new collars
+  unit0016:
+  - rscadd: Lone Infiltrators are now on the prowl.
